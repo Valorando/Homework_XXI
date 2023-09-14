@@ -1,0 +1,25 @@
+
+CREATE DATABASE Warehouse
+
+USE Warehouse
+
+CREATE TABLE Product_list
+(
+ID INT IDENTITY,
+Name NVARCHAR(60),
+Count INT NOT NULL
+)
+
+INSERT INTO Product_list
+VALUES
+('Xiaomi Redmi 10', 30),
+('Xiaomi Redmi 8', 34),
+('Xiaomi Redmi Note 12', 32),
+('Xiaomi 13 Pro', 45),
+('Xiaomi Redmi 12',20)
+
+SELECT * FROM Product_list
+
+
+
+
